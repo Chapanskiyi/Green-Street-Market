@@ -1,0 +1,48 @@
+.container-header{
+    width: 1280px;
+    height:891px;
+    background-image: url('../images/vegTable.jpg');
+    padding: 15px 15px;
+}
+.main-menu-box{ 
+    border-radius: 32px;
+    background-color: #fff;
+    width: 62px;
+    height: 40px;
+    margin-left: 15px;
+    overflow: hidden;
+}
+.main-menu-svg{
+    display: inline-block;
+    position: relative;
+    top:3px;
+    left:12px;
+    width: 32px;
+    height: 32px;
+    stroke:#f5ca3c;
+}
+.main-menu-span{
+    vertical-align: super;
+    opacity: 0;
+    margin-left: 35px;
+}
+.main-menu-box:hover .main-menu-svg{
+    stroke: #ffffff;
+    transform: rotate(90deg);
+    transition: .5s;
+    width: 32px;
+    height: 32px;
+}
+.main-menu-box:hover .main-menu-span{
+    opacity: 1;
+    color: #ffffff;
+
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+.main-menu-box:hover{
+    width: 280px;
+    background-color:#96c93d;
+    transition: .5s;
+}
