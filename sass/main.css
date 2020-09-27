@@ -413,6 +413,7 @@ html {
 }
 
 .main-menu-box {
+  display: inline-block;
   border-radius: 32px;
   background-color: #fff;
   width: 62px;
