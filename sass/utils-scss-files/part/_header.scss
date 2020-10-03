@@ -1,4 +1,5 @@
 .container-header{
+    font-family: 'PFBagueRoundPro',sans-serif;
     width: 1280px;
     height:891px;
     background-image: url('../images/vegTable.jpg');
@@ -31,7 +32,7 @@
     width: 190px;
 }
 .secondary-main-box{
-    height: 397px;
+    height: 469px;
     border-radius: 17px;
     background-color: #ffffff;
     color: black;
@@ -55,6 +56,7 @@
     left: 15px;
     width: 32px;
     height: 32px;
+    //stroke: #96c93d;
 }
 .container-main-menu-svg-secondary{
     position: relative;
@@ -73,7 +75,7 @@
 }
 .main-nav{
     width: 62px;
-    height: 450px;
+    height: 514px;
     overflow: hidden;
     white-space: nowrap;
     z-index: 1;
@@ -92,7 +94,7 @@
 }
 .main-nav:hover .main-menu-box{
     display: inline-block;
-    font-family: 'Montserrat',sans-serif;
+    //font-family: 'Montserrat',sans-serif;
     font-style: normal;
     font-weight: 500;
     width: 280px;
@@ -132,15 +134,15 @@
     margin-left: 80px;    
     padding-left: 20px;
 }
-.header__top::before{
-    content: '';
-    position: absolute;
-    width: 92%;
-    height: 1px;
-    top: 35px;
-    left: 85px;
-    border-bottom: 1px solid #beb9b9;
-}
+// .header__top::before{
+//     content: '';
+//     position: absolute;
+//     width: 92%;
+//     height: 1px;
+//     top: 35px;
+//     left: 85px;
+//     border-bottom: 1px solid #beb9b9;
+// }
 .header__top-item{
     display: flex;
     align-items: center;
@@ -153,7 +155,7 @@
     margin-right: 0px;
     position: relative;
 }
-.header__top-item:last-child::before{
+.header__top-item:nth-child(5)::before{
     content:'';
     position: absolute;
     width: 30px;
@@ -161,7 +163,7 @@
     background-image: url(../images/fire.svg);
     background-color:  #f1f1f1;
     top: 0px;
-    left:-29px;
+    left:534px;
 }
 .header__top-item:hover{
     color: #534746;
@@ -201,4 +203,33 @@
     text-align: center;
     color: #fff;
     font-size: 13px;
+}
+.header__top-item-find{
+    width: 450px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.header__top-item-find svg{
+    width: 25px;
+    height: 25px;
+    stroke:#96c93d;
+}
+.header__top-item-find input{
+    width: 90%;
+    border:#f1f1f1;
+    height: 90%;
+    background-color: #fff;
+    color: #a5a4a4;
+}
+.header__top-item-find input::placeholder{
+    color: #a5a4a4;
+}
+.header__top-item-find input:focus,
+.header__top-item-find input:hover{
+    border:1px solid #f1f1f1;
+    outline: none;
+    border: none;
 }
